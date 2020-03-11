@@ -9,11 +9,11 @@ I have downloaded video from link above and converted video to frames by OpenCV.
 At first, frames were cropped and resized to (220,66) pixels, because this is the input shape to my neural network. Then brightness of each frame is changed and optical flow image of two consecutive frames is calculated by prebuilt function in OpenCV.   
 
 These are original frames.   
-<img src = "assets/image1.jpg" width ="200" /> <img src = "assets/image2.jpg" width ="200" />
+<img src = "assets/image1.jpg" width ="600" /> <img src = "assets/image2.jpg" width ="600" />
 
 
-These are images after being cropped and resized
-<img src = "assets/resized_image1.jpg" width ="200" /> <img src = "assets/resized_image2.jpg" width ="200" />
+These are images after being cropped and resized.    
+<img src = "assets/resized_image1.jpg" width ="220" /> <img src = "assets/resized_image2.jpg" width ="220" />
 
 This is the Optical Flow between two images above
 <p align="center">
