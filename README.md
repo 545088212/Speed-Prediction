@@ -8,12 +8,16 @@ I have downloaded video from link above and converted video to frames by OpenCV.
 
 At first, frames were cropped and resized to (220,66) pixels, because this is the input shape to my neural network. Then brightness of each frame is changed and optical flow image of two consecutive frames is calculated by prebuilt function in OpenCV.   
 
-These are original frames.   
+These are original frames. 
+<p align="center">  
 <img src = "assets/image1.jpg" width ="400" /> <img src = "assets/image2.jpg" width ="400" />
+</p>
 
 
 These are images after being cropped and resized.    
+<p align="center">
 <img src = "assets/resized_image1.jpg" width ="220" /> <img src = "assets/resized_image2.jpg" width ="220" />
+</p>
 
 This is the Optical Flow between two images above
 <p align="center">
@@ -30,7 +34,7 @@ For this task I have chosen Nvidia_CNN model which architecture looks as below. 
 </p>
 I have have trained for 20 epochs and with batch size = 1. This is how my model improved through training process
 <p align="center">
-    <img src="./assets/MSE_per_epoch.png" width="600"/>
+    <img src="./assets/MSE_per_epoch.png" width="800"/>
 </p>
 
 ## Testing
